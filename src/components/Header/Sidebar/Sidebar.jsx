@@ -7,22 +7,49 @@ const Sidebar = ({ click, closeMenu }) => {
     <aside>
       <SideBar menu={+click}>
         <li>
-          <MobileLink to="/" onClick={closeMenu}>
+          <MobileLink
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            onClick={closeMenu}
+          >
             Home
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="/" onClick={closeMenu}>
-            About
+          <MobileLink
+            to="menu"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            onClick={closeMenu}
+          >
+            Menu
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="/" onClick={closeMenu}>
+          <MobileLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            onClick={closeMenu}
+          >
             Contact
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="/">
+          <MobileLink
+            to="menu"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             <Button>
               Order
               <span>

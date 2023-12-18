@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import PrimaryButtons from "../../Button/ButtonStyles";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = styled.header`
   display: flex;
@@ -53,7 +53,7 @@ const NavLinks = styled.ul`
   }
 `;
 
-const NavLink = styled.a`
+const NavLink = styled(Link)`
   color: ${(props) => props.theme.colors.primary};
   font-size: ${(props) => props.theme.fontSize.small};
   font-weight: ${(props) => props.theme.fontWeight.Regular};

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import PrimaryButtons from "../../Button/ButtonStyles";
-
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const SideBar = styled.ul`
   position: fixed;
@@ -25,10 +24,14 @@ const SideBar = styled.ul`
   }
 `;
 
-const MobileLink = styled.a`
+const MobileLink = styled(Link)`
   color: ${(props) => props.theme.colors.secondary};
   font-size: ${(props) => props.theme.fontSize.medium};
   font-weight: ${(props) => props.theme.fontWeight.SemiBold};
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 const Button = styled(PrimaryButtons)`

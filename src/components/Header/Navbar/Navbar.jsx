@@ -23,16 +23,46 @@ function Navbar({ click, handleClick }) {
       <nav>
         <NavLinks>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">About</NavLink>
+            <NavLink
+              to="menu"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Menu
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">Contact</NavLink>
+            <NavLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink
+              to="menu"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               <Button>
                 Order
                 <span>

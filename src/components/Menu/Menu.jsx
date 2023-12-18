@@ -6,7 +6,7 @@ import { Section, Img, Arrows } from "./MenuStyles";
 
 const Menu = () => {
   return (
-    <Section>
+    <Section id="menu">
       <Swiper {...sliderSettings}>
         <SliderButtons />
         {menu.map((item) => {

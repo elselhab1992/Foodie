@@ -16,7 +16,7 @@ const Hero = () => {
   const [image, setImage] = useState(imgList[0]);
 
   return (
-    <Section>
+    <Section id="home">
       <InfoContainer>
         <Heading>
           Welcome to the
