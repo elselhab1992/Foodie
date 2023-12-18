@@ -1,6 +1,14 @@
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
-import { Header, Hero, Service, Popular, AppStore, Footer } from "./components";
+import {
+  Header,
+  Hero,
+  Service,
+  Popular,
+  AppStore,
+  Menu,
+  Footer,
+} from "./components";
 
 function App() {
   return (
@@ -12,6 +20,7 @@ function App() {
         <Service />
         <Popular />
         <AppStore />
+        <Menu />
         <Footer />
       </Theme>
     </>

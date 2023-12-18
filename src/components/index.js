@@ -9,6 +9,7 @@ import Popular from "./Popular/Popular";
 import Button from "./Button/Button";
 import AppStore from "./AppStore/AppStore";
 import Footer from "./Footer/Footer";
+import Menu from "./Menu/Menu";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Button,
   AppStore,
   Footer,
+  Menu,
 };

@@ -2,6 +2,8 @@
 import food1 from "./assets/biryani2.png";
 import food2 from "./assets/biryani3.png";
 import food3 from "./assets/biryani5.png";
+import food4 from "./assets/biryani.png";
+import food5 from "./assets/biryani4.png";
 
 const imgList = [
   {
@@ -39,4 +41,27 @@ const services = [
   },
 ];
 
-export { imgList, services };
+const menu = [
+  {
+    id: 11,
+    img: food1,
+  },
+  {
+    id: 12,
+    img: food2,
+  },
+  {
+    id: 13,
+    img: food3,
+  },
+  {
+    id: 14,
+    img: food4,
+  },
+  {
+    id: 15,
+    img: food5,
+  },
+];
+
+export { imgList, services, menu };
