@@ -6,8 +6,7 @@ const SideBar = styled.ul`
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 50px;
-  /* left: 0; */
+  top: 70px;
   z-index: 2;
   display: flex;
   flex-direction: column;

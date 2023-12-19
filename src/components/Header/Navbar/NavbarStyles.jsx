@@ -6,9 +6,9 @@ const Header = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 20rem;
+  gap: 18rem;
   padding: 1rem;
-  height: 50px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,6 +27,13 @@ const NavIcons = styled.div`
   @media (max-width: 1024px) {
     display: flex;
   }
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
 `;
 
 const LogoContainer = styled.div`
@@ -69,4 +76,13 @@ const Button = styled(PrimaryButtons)`
   padding: 8px;
 `;
 
-export { Header, LogoContainer, Logo, NavIcons, NavLinks, NavLink, Button };
+export {
+  Header,
+  LogoContainer,
+  Container,
+  Logo,
+  NavIcons,
+  NavLinks,
+  NavLink,
+  Button,
+};

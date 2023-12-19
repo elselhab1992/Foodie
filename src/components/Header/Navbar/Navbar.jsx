@@ -5,6 +5,7 @@ import {
   Header,
   LogoContainer,
   Logo,
+  Container,
   NavIcons,
   NavLinks,
   NavLink,
@@ -20,59 +21,61 @@ function Navbar({ click, handleClick }) {
         <span>Foodie</span>
       </LogoContainer>
 
-      <nav>
-        <NavLinks>
-          <li>
-            <NavLink
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="menu"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              Menu
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              Contact
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="menu"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <Button>
-                Order
-                <span>
-                  <IoMdCart size={20} />
-                </span>
-              </Button>
-            </NavLink>
-          </li>
-        </NavLinks>
-      </nav>
+      <Container>
+        <nav>
+          <NavLinks>
+            <li>
+              <NavLink
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="menu"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Menu
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="menu"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <Button>
+                  Order
+                  <span>
+                    <IoMdCart size={20} />
+                  </span>
+                </Button>
+              </NavLink>
+            </li>
+          </NavLinks>
+        </nav>
+      </Container>
       <NavIcons onClick={handleClick}>
         {click ? (
           <FaTimes size={30} style={{ color: "#000", cursor: "pointer" }} />

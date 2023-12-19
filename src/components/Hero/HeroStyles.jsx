@@ -20,7 +20,7 @@ const Section = styled.section`
   }
 
   @media (min-width: 768px) {
-    padding: 50px 5px;
+    padding: 70px 5px;
   }
 
   @media (min-width: 1024px) {

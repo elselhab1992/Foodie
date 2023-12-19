@@ -7,6 +7,14 @@ const theme = {
     secondary: "#f5bc13",
     white: "#fff",
   },
+  light: {
+    black: "#1c1c1c",
+    white: "#fff",
+  },
+  dark: {
+    white: "#fff",
+    black: "#1c1c1c",
+  },
   fontSize: {
     small: "18px",
     normal: "20px",
@@ -22,22 +30,6 @@ const theme = {
     bolder: "900",
   },
 };
-
-// const lightTheme = {
-//   colors: {
-//     primary: "#000",
-//     secondary: "#ddb232",
-//     white: "#fff",
-//   },
-// };
-
-// const darkTheme = {
-//   colors: {
-//     primary: "#fff",
-//     secondary: "#ddb232",
-//     black: "#000",
-//   },
-// };
 
 export default function Theme({ children }) {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
