@@ -29,14 +29,14 @@ const services = [
   },
   {
     id: 5,
-    img: food1,
+    img: food2,
     title: "Chiken kari",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
   },
   {
     id: 6,
-    img: food1,
-    title: "Cold Cofee",
+    img: food3,
+    title: "chicken korma",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
   },
 ];
