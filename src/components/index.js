@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import PrimaryButton from "./Button/Button";
 import Hero from "./Hero/Hero";
 import Heading from "./Heading/Heading";
-import Service from "./Service/Service";
+import Specials from "./Specials/Specials";
 import Popular from "./Popular/Popular";
 import Button from "./Button/Button";
 import AppStore from "./AppStore/AppStore";
@@ -18,7 +18,7 @@ export {
   PrimaryButton,
   Hero,
   Heading,
-  Service,
+  Specials,
   Popular,
   Button,
   AppStore,

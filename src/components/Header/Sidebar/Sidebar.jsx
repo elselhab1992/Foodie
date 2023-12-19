@@ -20,6 +20,18 @@ const Sidebar = ({ click, closeMenu }) => {
         </li>
         <li>
           <MobileLink
+            to="specials"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            onClick={closeMenu}
+          >
+            Specials
+          </MobileLink>
+        </li>
+        <li>
+          <MobileLink
             to="menu"
             spy={true}
             smooth={true}
@@ -47,8 +59,9 @@ const Sidebar = ({ click, closeMenu }) => {
             to="menu"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
+            onClick={closeMenu}
           >
             <Button>
               Order

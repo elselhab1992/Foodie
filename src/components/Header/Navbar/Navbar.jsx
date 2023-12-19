@@ -37,6 +37,17 @@ function Navbar({ click, handleClick }) {
             </li>
             <li>
               <NavLink
+                to="specials"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+              >
+                Specials
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to="menu"
                 spy={true}
                 smooth={true}

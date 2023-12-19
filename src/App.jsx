@@ -3,7 +3,7 @@ import Theme from "./Theme";
 import {
   Header,
   Hero,
-  Service,
+  Specials,
   Popular,
   AppStore,
   Menu,
@@ -17,7 +17,7 @@ function App() {
         <GlobalStyles />
         <Header />
         <Hero />
-        <Service />
+        <Specials />
         <Popular />
         <AppStore />
         <Menu />
